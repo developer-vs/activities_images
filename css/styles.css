@@ -6,7 +6,7 @@ body {
 nav {
   background: #6a5750;
   padding: 6px;
-  margin-top: 20px;
+  /* margin-top: 20px; */
 }
 
 nav ul {
@@ -36,7 +36,7 @@ img {
 }
 
 article {
-  margin-left: 40px;
+  margin: 0 40px;
 }
 
 h1 {
