@@ -103,7 +103,7 @@ nav.main_nav li:hover {
   display: block;
   position: absolute;
   top: 0;
-  left: 0;
+  left: 40px;
   width: 2em;
   height: 2em;
   overflow: hidden;
