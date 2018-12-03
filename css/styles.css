@@ -23,7 +23,11 @@ nav ul {
 
 nav ul li {
   line-height: 2em;
-  padding: 10px;
+  padding: 10px 40px;
+}
+
+footer li a {
+  padding-left: 30px;
 }
 
 a {
@@ -103,7 +107,7 @@ nav.main_nav li:hover {
   display: block;
   position: absolute;
   top: 0;
-  left: 40px;
+  left: 30px;
   width: 2em;
   height: 2em;
   overflow: hidden;
