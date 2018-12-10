@@ -1,6 +1,8 @@
 body {
   margin: 0px;
+  padding: 0px;
   color: #2f3432;
+  font-size: 120%;
 }
 
 .steps {
@@ -48,6 +50,10 @@ h1 {
   color: white;
   padding: 6px;
   margin: 0px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  min-width: 520px;
 }
 
 h2 {
@@ -71,6 +77,7 @@ nav.main_nav li:hover {
 
 .main_nav {
   display: none;
+  margin-top: calc(2em + 18px);
 }
 
 .main_nav:hover {
@@ -99,16 +106,17 @@ nav.main_nav li:hover {
     #30231d 8px
   );
 }
+
 .access_nav_design {
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 30px;
   width: 2em;
   height: 2em;
   overflow: hidden;
   background: #30231d 50% 50% / 30px 20px no-repeat;
-  padding: 5px;
+  padding: 9px;
 }
 
 table,
